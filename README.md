@@ -15,8 +15,8 @@ GOOGLE_API_KEY = <your_api_key>
 bash init_setup.sh
 ```
 
-3. Run the main.py
+3. Run the QA Chatbot
 
 ```
-streamlit run main.py
+streamlit run qa_chatbot.py
 ```
