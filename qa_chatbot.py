@@ -12,7 +12,7 @@ st.set_page_config(
     layout="centered",
 )
 
-#GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 
 # Setup google Gemini-Pro model
