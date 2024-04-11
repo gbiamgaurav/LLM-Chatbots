@@ -16,8 +16,8 @@ st.set_page_config(
 
 
 # Setup google Gemini-Pro model
-#genai.configure (api_key = GOOGLE_API_KEY)
-#model = genai.GenerativeModel('gemini-pro')
+genai.configure (api_key = GOOGLE_API_KEY)
+model = genai.GenerativeModel('gemini-pro')
 
 
 # Funtion to translate roles between Gemini-Pro and Streamlit terminology
